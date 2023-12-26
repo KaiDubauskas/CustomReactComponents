@@ -1,0 +1,40 @@
+.dropdown-outer-container {
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 1;
+}
+
+.dropdown-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    z-index: 3;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-item-container {
+    padding: 0.3em 2.2em;
+    color: black;
+    font-size: 9pt;
+    font-weight: 400;
+}
+
+.action-item-container:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+.dropdown-hidden {
+    display: none;
+}
+
+.dropdown-visible {
+    display: block;
+    z-index: 3;
+}

@@ -1,0 +1,46 @@
+.visible {
+    display: flex
+}
+
+.hidden {
+    display: none;
+}
+
+.outer-modal-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.3);
+    z-index: 3;
+}
+
+.modal-container {
+    border-radius: 0.2em;
+    background-color: rgb(232, 232, 232);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    padding: 2.5em;
+}
+
+.close-modal-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.2em;
+    height: 1em;
+    width: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: gray;
+}
